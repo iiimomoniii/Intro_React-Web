@@ -1,5 +1,6 @@
+#ctrl + shift + p => open preferences : Open setting (JSON) => paste
 
-"emmet.syntaxProfiles": {
+    "emmet.syntaxProfiles": {
         "javascript": "jsx"
     },
     "emmet.includeLanguages": {
