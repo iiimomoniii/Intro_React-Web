@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import CounterClassComponent from "./CounterClassComponents";
+import CounterFunctionalComponent from "./CounterFunctionalComponent";
 export default () => {
   let var1 = 0;
   const var2 = "Hello";
@@ -27,6 +28,9 @@ export default () => {
       >
         ADD
       </button>
+
+      <CounterClassComponent />
+      <CounterFunctionalComponent />
     </div>
   );
 };
