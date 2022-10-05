@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CounterClassComponent from "./CounterClassComponents";
 import CounterFunctionalComponent from "./CounterFunctionalComponent";
+import EX1 from "./components/ex1_styles";
 export default () => {
   let var1 = 0;
   const var2 = "Hello";
@@ -31,6 +32,7 @@ export default () => {
       {/* ถ้าเป็นการประกาศComponent เเบบ class มันจะเปลือง memory มากกว่าแบบ Functional เพราะ class มันไป extend เพื่อเอาคุณสมบัติของ component ใน react มาซึ่งบางครั้งเราไม่จำเป็นต้องใช้*/}
       <CounterClassComponent />
       <CounterFunctionalComponent />
+      <EX1 />
     </div>
   );
 };
