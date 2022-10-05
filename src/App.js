@@ -12,7 +12,7 @@ export default () => {
       <h1>codemobile {var2}</h1>
       {/*การเรียกใช้ตัวเเปรเเบบมีเงื่อนไข*/}
       <h1>codemobile {var3 && "Yes"}</h1>
-      {var3 ? <h1></h1>}
+      {var3 ? <h1>codemobile</h1> : <h1>NO</h1>}
     </div>
   );
 };
