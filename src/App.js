@@ -28,7 +28,7 @@ export default () => {
       >
         ADD
       </button>
-
+      {/* ถ้าเป็นการประกาศComponent เเบบ class มันจะเปลือง memory มากกว่าแบบ Functional เพราะ class มันไป extend เพื่อเอาคุณสมบัติของ component ใน react มาซึ่งบางครั้งเราไม่จำเป็นต้องใช้*/}
       <CounterClassComponent />
       <CounterFunctionalComponent />
     </div>
